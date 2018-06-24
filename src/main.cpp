@@ -136,14 +136,14 @@ int main(int argc, char * argv[]) try {
             const unsigned char noDepth = 0; // change to 255, if values no depth uses max value
             Mat temp, temp2;
 
-            // 1 step - downsize for performance, use a smaller version of depth image
+            // Downsize for performance, use a smaller version of depth image (defined in the SCALE_FACTOR macro)
             Mat small_depthf;
             resize(cleanedDepth, small_depthf, Size(), SCALE_FACTOR, SCALE_FACTOR);
 
-            // 2 step - inpaint only the masked "unknown" pixels
+            // Inpaint only the masked "unknown" pixels
             inpaint(small_depthf, (small_depthf == noDepth), temp, 5.0, INPAINT_TELEA);
 
-            // 3 step - upscale to original size and replace inpainted regions in original depth image
+            // Upscale to original size and replace inpainted regions in original depth image
             resize(temp, temp2, cleanedDepth.size());
             temp2.copyTo(cleanedDepth, (cleanedDepth == noDepth));  // add to the original signal
 
