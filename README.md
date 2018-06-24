@@ -4,6 +4,7 @@ A threaded OpenCV depth-map cleaning and inpainting tool.
 1. [Qucikstart](#quickstart)
 1. [Depth Cleaning](#depth-cleaning)
 1. [Dependencies](#dependencies)
+1. [License](#license)
 
 ![Depth-map image](https://github.com/juniorxsound/ThreadedDepthCleaner/blob/master/docs/depth_cleaning_top_bottom.jpg)
 *Left-to-right: Original depth-map visualized using a color-map, filtered depthmap visualized using a color-map*  
@@ -33,3 +34,6 @@ mkdir build && cd build && cmake ../ && make -j4
 > Depth coloring and cv::Mat queuing functionality was implemented thanks to [@PKLab](http://pklab.net/index.php?id=394&lang=EN) and [@Catree](https://stackoverflow.com/questions/42356562/realsense-opencv-depth-image-too-dark) 🙌🏻
 
 > Thanks to [@Dodiku](https://github.com/dodiku) for help with the cover image 💪🏻
+
+### License
+All code in this repository is released under the MIT license [found here](https://github.com/juniorxsound/ThreadedDepthCleaner/blob/master/LICENSE)
