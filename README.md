@@ -32,4 +32,4 @@ mkdir build && cd build && cmake ../ && make -j4
 
 > Depth coloring and cv::Mat queuing functionality was implemented thanks to [@PKLab](http://pklab.net/index.php?id=394&lang=EN) and [@Catree](https://stackoverflow.com/questions/42356562/realsense-opencv-depth-image-too-dark) 🙌🏻
 
-> Thanks to [@Dodiku](https://github.com/dodiku) for the cover image 💪🏻
+> Thanks to [@Dodiku](https://github.com/dodiku) for help with the cover image 💪🏻
