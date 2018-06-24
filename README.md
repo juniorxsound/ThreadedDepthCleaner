@@ -6,7 +6,7 @@ A threaded OpenCV depth-map cleaning and inpainting tool.
 1. [Dependencies](#dependencies)
 
 ![Depth-map image](https://github.com/juniorxsound/ThreadedDepthCleaner/blob/master/docs/depth_cleaning_top_bottom.jpg)
-
+*Left-to-right: Original depth-map visualized using a color-map, filtered depthmap visualized using a color-map*  
 ### Quickstart
 The tool is setup to use the Intel's [librealsense](https://github.com/IntelRealSense/librealsense) SDK and a RealSense depth sensor (415/435). 
 1. Clone the repository with it's submodules:
