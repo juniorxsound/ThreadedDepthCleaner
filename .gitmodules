@@ -1,0 +1,3 @@
+[submodule "ext/librealsense"]
+	path = ext/librealsense
+	url = https://github.com/IntelRealSense/librealsense.git
