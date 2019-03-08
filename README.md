@@ -1,7 +1,7 @@
 # Threaded Depth Cleaner
 
 Threaded depth-map cleaning and inpainting using OpenCV. 
-1. [Qucikstart](#quickstart)
+1. [Quickstart](#quickstart)
 1. [Depth Cleaning](#depth-cleaning)
 1. [Video](https://vimeo.com/276897884)
 1. [Dependencies](#dependencies)
