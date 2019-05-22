@@ -2,6 +2,7 @@
 #include <librealsense2/rs.hpp> // Include RealSense Cross Platform API
 #include <opencv2/opencv.hpp>   // Include OpenCV API
 #include <opencv2/rgbd.hpp>     // OpenCV RGBD Contrib package
+#include <opencv2/highgui/highgui_c.h> // OpenCV High-level GUI
 
 // STD
 #include <string>
